@@ -9,24 +9,19 @@ const App = () => {
           <div
             class="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
           >
-            {/* <!-- Logo --> */}
+            
             <a class="flex flex-shrink-0 items-center mr-4" href="/index.html">
-              <img
-                class="h-10 w-auto"
-                src="images/logo.png"
-                alt="React Jobs"
-              />
+              
               <span class="hidden md:block text-white text-2xl font-bold ml-2"
-                >React Jobs</span
-              >
+                >React Jobs
+                </span>
             </a>
             <div class="md:ml-auto">
               <div class="flex space-x-2">
                 <a
                   href="/index.html"
                   class="text-white bg-black hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
-                  >Home</a
-                >
+                  >Home</a>
                 <a
                   href="/jobs.html"
                   class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
@@ -35,8 +30,7 @@ const App = () => {
                 <a
                   href="/add-job.html"
                   class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
-                  >Add Job</a
-                >
+                  >Add Job</a>
               </div>
             </div>
           </div>
@@ -110,17 +104,17 @@ const App = () => {
               </div>
 
               <div class="mb-5">
-               We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript...
+               We are seeking a talented Front-End Developer to join our team in London. The ideal candidate will have strong skills in HTML, CSS, and JavaScript...
               </div>
 
-              <h3 class="text-indigo-500 mb-2">$70 - $80K / Year</h3>
+              <h3 class="text-indigo-500 mb-2">£70 - £80K / Year</h3>
 
               <div class="border border-gray-100 mb-5"></div>
 
               <div class="flex flex-col lg:flex-row justify-between mb-4">
                 <div class="text-orange-700 mb-3">
                   <i class="fa-solid fa-location-dot text-lg"></i>
-                  Boston, MA
+                  London
                 </div>
                 <a
                   href="job.html"
@@ -140,17 +134,17 @@ const App = () => {
               </div>
 
               <div class="mb-5">
-               Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion...
+               Join our team as a Front-End Developer in Liverpool. We are looking for a motivated individual with a passion...
               </div>
 
-              <h3 class="text-indigo-500 mb-2">$70K - $80K / Year</h3>
+              <h3 class="text-indigo-500 mb-2">£75K - £90K / Year</h3>
 
               <div class="border border-gray-100 mb-5"></div>
 
               <div class="flex flex-col lg:flex-row justify-between mb-4">
                 <div class="text-orange-700 mb-3">
                   <i class="fa-solid fa-location-dot text-lg"></i>
-                  Miami, FL
+                  Liverpool
                 </div>
                 <a
                   href="job.html"
@@ -170,17 +164,17 @@ const App = () => {
               </div>
 
               <div class="mb-5">
-                Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference...
+                Are you passionate about front-end development? Join our team in vibrant Birmingham, and work on exciting projects that make a difference...
               </div>
 
-              <h3 class="text-indigo-500 mb-2">$70K - $80K / Year</h3>
+              <h3 class="text-indigo-500 mb-2">£60K - £70K / Year</h3>
 
               <div class="border border-gray-100 mb-5"></div>
 
               <div class="flex flex-col lg:flex-row justify-between mb-4">
                 <div class="text-orange-700 mb-3">
                   <i class="fa-solid fa-location-dot text-lg"></i>
-                  Brooklyn, NY
+                  Birmingham
                 </div>
                 <a
                   href="job.html"
@@ -199,8 +193,7 @@ const App = () => {
       <a
         href="jobs.html"
         class="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700"
-        >View All Jobs</a
-      >
+        >View All Jobs</a>
     </section>
     </>
   )
